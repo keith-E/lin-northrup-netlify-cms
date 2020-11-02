@@ -12,7 +12,7 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
-          <Link to="/" title="Home" style={{ fontFamily: 'Marcellus SC', fontWeight: '500', fontSize: '24px', width: '40em', height: '10em', color: '#91bb3c' }}>
+          <Link to="/" title="Home" style={{ fontFamily: 'Marcellus SC', fontWeight: '600', fontSize: '40px', color: '#91bb3c' }}>
             Leela and the Forest of Light
           </Link>
         </div>

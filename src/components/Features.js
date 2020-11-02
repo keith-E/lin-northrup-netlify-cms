@@ -16,6 +16,11 @@ const FeatureGrid = ({ gridItems }) => (
             >
               <PreviewCompatibleImage imageInfo={item} />
             </div>
+            <div style={{ marginTop: '10px', marginBottom: '10px' }}>
+              <a className="btn" target="_blank" rel="noopener noreferrer" href={item.siteUrl}>
+                Buy on Amazon
+              </a>
+            </div>
           </div>
           <p dangerouslySetInnerHTML={{ __html: item.text }} />
         </section>
@@ -28,6 +33,7 @@ FeatureGrid.propTypes = {
   gridItems: PropTypes.arrayOf(
     PropTypes.shape({
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+      siteUrl: PropTypes.string,
       text: PropTypes.string,
     })
   ),

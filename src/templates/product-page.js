@@ -79,6 +79,7 @@ export const productPageQuery = graphql`
                 }
               }
             }
+            siteUrl
             text
           }
           heading
