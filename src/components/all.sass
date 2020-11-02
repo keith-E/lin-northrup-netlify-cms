@@ -47,6 +47,7 @@ $black: #2b2523
   height: 3000px
   background-size: cover
   background-position: bottom
+  background-attachment: fixed
   display: flex
   justify-content: center
   align-items: center
@@ -129,7 +130,8 @@ $menu-label-color: $white-ter
   z-index: 100000
 
 @media (hover: none)
-  background-attachment: initial
+  .full-width-image
+    background-attachment: initial
 
 // responsiveness
 +tablet-only
