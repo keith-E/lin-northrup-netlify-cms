@@ -42,7 +42,7 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Home" style={{ fontFamily: 'Marcellus SC', fontWeight: '600', fontSize: '22px', width: '330px', color: '#3e734c' }}>
+            <Link to="/" className="navbar-item" title="Home" style={{ fontFamily: 'Marcellus SC', fontWeight: '600', fontSize: '22px', width: '400px', color: '#3e734c' }}>
               Leela and the Forest of Light
             </Link>
             {/* Hamburger menu */}
