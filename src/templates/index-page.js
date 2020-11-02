@@ -29,7 +29,12 @@ export const IndexPageTemplate = ({
           backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image
             })`,
           backgroundPosition: `center`,
-          backgroundAttachment: `fixed`,
+          zIndex: `-1`,
+          top: `0`,
+          height: `3000px`,
+          width: `100%`,
+          backgroundSize: `150%`,
+          backgroundRepeat: `no-repeat`
         }}
       >
         <div
@@ -63,7 +68,7 @@ export const IndexPageTemplate = ({
               lineHeight: '1',
               padding: '0.25em',
               fontStyle: 'italic',
-              marginBottom: '10.00em',
+              marginBottom: '20.00em',
             }}
           >
             {lionCite}
