@@ -21,7 +21,7 @@
      id="defs2">
      <style type="text/css">
          @font-face {
-         font-family: Marcellus SC;
+         font-family: 'Marcellus SC';
          src: url('../fonts/marcellus.woff2');
          }
       </style>
