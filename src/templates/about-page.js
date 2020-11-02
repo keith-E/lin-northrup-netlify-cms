@@ -21,7 +21,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 flexDirection: 'column',
               }}
             >
-              <img src={lin_photo} alt="Back Cover" style={{ marginBottom: '10px' }} />
+              <img src={lin_photo} alt="Lin Northrup, M.Ed., R.H." style={{ marginTop: '10px', marginBottom: '10px' }} />
               <PageContent className="content" content={content} />
             </div>
           </div>

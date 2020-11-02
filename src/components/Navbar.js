@@ -87,6 +87,7 @@ const Navbar = class extends React.Component {
                 href="https://www.amazon.com/Leela-Forest-Light-Lin-Northrup-ebook/dp/B08L6VYX53/ref=sr_1_1?crid=V9HSIW8V979P&dchild=1&keywords=leela+and+the+forest+of+light&qid=1604274061&sprefix=leela+and+the+%2Caps%2C153&sr=8-1"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{ marginTop: '1px' }}
               >
                 <span className="icon">
                   <img src={amazon} alt="Amazon" />
