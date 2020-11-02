@@ -42,8 +42,8 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="LFL Logo">
-              <img src={lfl_logo} alt="Leela Logo" style={{ width: '240px' }} />
+            <Link to="/" className="navbar-item" title="Home" style={{ fontFamily: 'Marcellus SC', fontWeight: '600', fontSize: '22px', width: '320px', color: '#3e734c' }}>
+              Leela and the Forest of Light
             </Link>
             {/* Hamburger menu */}
             <div

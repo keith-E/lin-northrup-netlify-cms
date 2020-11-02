@@ -12,11 +12,9 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Leela and the Forest of Light"
-            style={{ width: '40em', height: '10em' }}
-          />
+          <Link to="/" title="Home" style={{ fontFamily: 'Marcellus SC', fontWeight: '500', fontSize: '24px', width: '40em', height: '10em', color: '#91bb3c' }}>
+            Leela and the Forest of Light
+          </Link>
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
