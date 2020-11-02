@@ -2,7 +2,7 @@
 templateKey: index-page
 lionQuote: >
   "Your power lies within you, Leela."
-image: /img/lfl_forest_landscape.jpg
+image: /img/lfl_forest_landscape_2.jpg
 heading: Great coffee with a conscience
 lionCite: -Mountain Lion
 bookDescription1: >

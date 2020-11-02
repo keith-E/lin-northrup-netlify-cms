@@ -23,102 +23,107 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
     <div>
-      <div
-        className="full-width-image margin-top-0 paral"
-        style={{
-          backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image
-            })`,
-          backgroundPosition: `center`,
-          backgroundAttachment: `fixed`,
-        }}
-      >
+      <div style={{ height: '3000px' }}>
         <div
           style={{
-            display: 'flex',
-            height: '150px',
-            lineHeight: '1',
-            justifyContent: 'space-around',
-            alignItems: 'center',
-            flexDirection: 'column',
+            backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image
+              })`,
+            width: `100%`,
+            height: `100%`,
+            backgroundRepeat: `no-repeat`,
+            top: `0`,
           }}
         >
-          <h1
-            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          <div
             style={{
-              backgroundColor: 'rgba(52, 52, 52, 0.5)',
-              color: 'white',
+              top: '0',
+              display: 'flex',
+              height: '150px',
               lineHeight: '1',
-              padding: '0.25em',
-              marginBottom: '0.25em',
-              fontFamily: 'Amatic SC',
+              justifyContent: 'space-around',
+              alignItems: 'center',
+              flexDirection: 'column',
             }}
           >
-            {lionQuote}
-          </h1>
-          <h3
-            className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-            style={{
-              backgroundColor: 'rgba(52, 52, 52, 0.5)',
-              color: 'white',
-              lineHeight: '1',
-              padding: '0.25em',
-              fontStyle: 'italic',
-              marginBottom: '20.00em',
-            }}
-          >
-            {lionCite}
-          </h3>
-          <h1
-            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-            style={{
-              backgroundColor: 'rgba(52, 52, 52, 0.5)',
-              color: 'white',
-              lineHeight: '1',
-              padding: '0.5em',
-              marginBottom: '10.00em',
-              fontFamily: 'Gentium Basic',
-            }}
-          >
-            {bookDescription1}
-          </h1>
-          <h1
-            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-            style={{
-              backgroundColor: 'rgba(52, 52, 52, 0.5)',
-              color: 'white',
-              lineHeight: '1',
-              padding: '0.5em',
-              marginBottom: '10.00em',
-              fontFamily: 'Gentium Basic',
-            }}
-          >
-            {bookDescription2}
-          </h1>
-          <h1
-            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-            style={{
-              backgroundColor: 'rgba(52, 52, 52, 0.5)',
-              color: 'white',
-              lineHeight: '1',
-              padding: '0.5em',
-              marginBottom: '10.00em',
-              fontFamily: 'Gentium Basic',
-            }}
-          >
-            {bookDescription3}
-          </h1>
-          <h1
-            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-            style={{
-              backgroundColor: 'rgba(52, 52, 52, 0.5)',
-              color: 'white',
-              lineHeight: '1',
-              padding: '0.5em',
-              fontFamily: 'Gentium Basic',
-            }}
-          >
-            {bookDescription4}
-          </h1>
+            <h1
+              className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+              style={{
+                backgroundColor: 'rgba(52, 52, 52, 0.75)',
+                color: 'white',
+                lineHeight: '1',
+                padding: '0.25em',
+                marginTop: `3000px`,
+                marginBottom: '0.25em',
+                fontFamily: 'Amatic SC',
+              }}
+            >
+              {lionQuote}
+            </h1>
+            <h3
+              className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+              style={{
+                backgroundColor: 'rgba(52, 52, 52, 0.75)',
+                color: 'white',
+                lineHeight: '1',
+                padding: '0.25em',
+                fontStyle: 'italic',
+                marginBottom: '20.00em',
+              }}
+            >
+              {lionCite}
+            </h3>
+            <h1
+              className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+              style={{
+                backgroundColor: 'rgba(52, 52, 52, 0.5)',
+                color: 'white',
+                lineHeight: '1',
+                padding: '0.5em',
+                marginBottom: '10.00em',
+                fontFamily: 'Gentium Basic',
+              }}
+            >
+              {bookDescription1}
+            </h1>
+            <h1
+              className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+              style={{
+                backgroundColor: 'rgba(52, 52, 52, 0.5)',
+                color: 'white',
+                lineHeight: '1',
+                padding: '0.5em',
+                marginBottom: '10.00em',
+                fontFamily: 'Gentium Basic',
+              }}
+            >
+              {bookDescription2}
+            </h1>
+            <h1
+              className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+              style={{
+                backgroundColor: 'rgba(52, 52, 52, 0.5)',
+                color: 'white',
+                lineHeight: '1',
+                padding: '0.5em',
+                marginBottom: '10.00em',
+                fontFamily: 'Gentium Basic',
+              }}
+            >
+              {bookDescription3}
+            </h1>
+            <h1
+              className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+              style={{
+                backgroundColor: 'rgba(52, 52, 52, 0.5)',
+                color: 'white',
+                lineHeight: '1',
+                padding: '0.5em',
+                fontFamily: 'Gentium Basic',
+              }}
+            >
+              {bookDescription4}
+            </h1>
+          </div>
         </div>
       </div>
       <section className="section section--gradient">
