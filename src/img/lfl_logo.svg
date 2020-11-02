@@ -17,11 +17,15 @@
    inkscape:export-filename="C:\Users\keagl\OneDrive\Pictures\Websites\LFL\lfl_logo1.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
-  <defs id="defs2">
+  <defs
+     id="defs2">
      <style type="text/css">
-         @import url('https://fonts.googleapis.com/css?family=Marcellus%20SC');
+         @font-face {
+         font-family: Marcellus SC;
+         src: url('../fonts/marcellus.woff2');
+         }
       </style>
-   </defs>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
