@@ -23,7 +23,7 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
     <div>
-      <div style={{ height: '3000px' }}>
+      <div style={{ width: '100%', height: '3000px' }}>
         <div
           style={{
             backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -37,6 +37,7 @@ export const IndexPageTemplate = ({
           <div
             style={{
               top: '0',
+              width: '100%',
               display: 'flex',
               height: '150px',
               lineHeight: '1',
@@ -142,10 +143,11 @@ export const IndexPageTemplate = ({
                       }}
                     >
                       <div style={{
-                        display: 'block',
+                        display: 'flex',
                         justifyContent: 'space-around',
-                        alignItems: 'center',
-                        marginBottom: '10px'
+                        width: '50%',
+                        height: 'auto',
+                        margin: '10px'
                       }}>
                         <img src={lfl_front_cover} alt="Front Cover" style={{ marginRight: '10px' }} />
                         <img src={lfl_back_cover} alt="Back Cover" />
