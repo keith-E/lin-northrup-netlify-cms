@@ -24,7 +24,7 @@
             font-family: 'Marcellus SC';
             font-style: normal;
             font-weight: 400;
-            src: local('Marcellus SC'), local('MarcellusSC-Regular'), url(https://fonts.gstatic.com/s/marcellussc/v8/ke8iOgUHP1dg-Rmi6RWjbLE_iNacKKg.woff2) format('woff2');
+            src: url('../fonts/marcellus.woff2') format('woff2'), local('Marcellus SC'), local('MarcellusSC-Regular'), url(https://fonts.gstatic.com/s/marcellussc/v8/ke8iOgUHP1dg-Rmi6RWjbLE_iNacKKg.woff2) format('woff2');
          }
       </style>
   </defs>
