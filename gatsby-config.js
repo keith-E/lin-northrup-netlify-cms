@@ -69,7 +69,9 @@ module.exports = {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
         fonts: [
-          'Marcellus SC'
+          'Marcellus SC',
+          'Amatic SC',
+          'Gentium Basic'
         ]
       }
     },

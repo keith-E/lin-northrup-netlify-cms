@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import lin_photo from '../img/Linphoto.jpg'
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
@@ -12,10 +13,15 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
+            <div
+              style={{
+                display: 'flex',
+                justifyContent: 'space-around',
+                alignItems: 'center',
+                flexDirection: 'column',
+              }}
+            >
+              <img src={lin_photo} alt="Back Cover" style={{ marginBottom: '10px' }} />
               <PageContent className="content" content={content} />
             </div>
           </div>

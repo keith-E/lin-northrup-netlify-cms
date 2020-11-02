@@ -1,16 +1,22 @@
 ---
 templateKey: index-page
-title: Leela and the Forest of Light
-image: /img/home-jumbotron.jpg
+lionQuote: >
+  "Your power lies within you, Leela."
+image: /img/lfl_forest_landscape.jpg
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+lionCite: -Mountain Lion
+bookDescription1: >
+  Leela never wanted to be adopted by the wealthy Rumsford family whose spoiled children make her life miserable. She feels utterly alone until a messenger from her future appears.
+bookDescription2: >
+  Raven, the bringer of magic, leads her into a mysterious forest to meet Fox, guardian of the world between worlds. He warns her that the animals, forests and oceans are in great danger because humans have forgotten their place in the circle of life.
+bookDescription3: >
+  But to fulfill the prophecy of the new earth, Leela must gather seven animal allies, shapeshift time and travel through a portal to receive the gift of far-seeing.
+bookDescription4: >
+  Can Leela face the dark forces that want to stop the new earth from rising? It's up to her to trust her heart and lead the way.
 mainpitch:
   title: Why Kaldi
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+      is a holistic educator and counselor with thirty years experience teaching in public schools. She founded Brain-Wise Learning Resources an innovative program supported by research from the neurosciences. It features a holistic view of intelligence and education that supports the hearts, minds, and unique learning styles of today’s children. She is also a certified hypnotherapist and energy practitioner.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
@@ -25,26 +31,6 @@ intro:
         variety of coffee beans grown with great care for the environment and
         local communities. Check our post or contact us directly for current
         availability.
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

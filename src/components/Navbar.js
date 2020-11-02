@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
+import facebook from '../img/social/facebook-color.svg'
+import amazon from '../img/social/amazon.svg'
 import lfl_logo from '../img/lfl_logo.svg'
 
 const Navbar = class extends React.Component {
@@ -42,7 +43,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="LFL Logo">
-              <img src={lfl_logo} alt="Leela" style={{ width: '240px', overflow: 'visible' }} />
+              <img src={lfl_logo} alt="Leela" style={{ width: '280px' }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -73,12 +74,22 @@ const Navbar = class extends React.Component {
             <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={github} alt="Github" />
+                  <img src={facebook} alt="Facebook" />
+                </span>
+              </a>
+              <a
+                className="navbar-item"
+                href="https://www.amazon.com/Leela-Forest-Light-Lin-Northrup-ebook/dp/B08L6VYX53/ref=sr_1_1?crid=V9HSIW8V979P&dchild=1&keywords=leela+and+the+forest+of+light&qid=1604274061&sprefix=leela+and+the+%2Caps%2C153&sr=8-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={amazon} alt="Amazon" />
                 </span>
               </a>
             </div>
