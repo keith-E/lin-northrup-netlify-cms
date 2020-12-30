@@ -6,126 +6,18 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
+import lfl_banner from '../img/leela-banner.png'
 import lfl_front_cover from '../img/lfl_front_cover.jpg'
 import lfl_back_cover from '../img/lfl_back_cover.jpg'
 
 export const IndexPageTemplate = ({
-  image,
-  lionQuote,
-  heading,
-  lionCite,
-  bookDescription1,
-  bookDescription2,
-  bookDescription3,
-  bookDescription4,
   mainpitch,
   description,
   intro,
 }) => (
     <div>
-      <div style={{ width: '100%', height: '3000px' }}>
-        <div
-          style={{
-            backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image
-              })`,
-            width: `100%`,
-            height: `100%`,
-            backgroundRepeat: `no-repeat`,
-            top: `0`,
-          }}
-        >
-          <div
-            style={{
-              top: '0',
-              width: '100%',
-              display: 'flex',
-              height: '150px',
-              lineHeight: '1',
-              justifyContent: 'space-around',
-              alignItems: 'center',
-              flexDirection: 'column',
-            }}
-          >
-            <h1
-              className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-              style={{
-                backgroundColor: 'rgba(52, 52, 52, 0.75)',
-                color: 'white',
-                lineHeight: '1',
-                padding: '0.25em',
-                marginTop: `3000px`,
-                marginBottom: '0.25em',
-                fontFamily: 'Amatic SC',
-              }}
-            >
-              {lionQuote}
-            </h1>
-            <h3
-              className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-              style={{
-                backgroundColor: 'rgba(52, 52, 52, 0.75)',
-                color: 'white',
-                lineHeight: '1',
-                padding: '0.25em',
-                fontStyle: 'italic',
-                marginBottom: '20.00em',
-              }}
-            >
-              {lionCite}
-            </h3>
-            <h1
-              className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-              style={{
-                backgroundColor: 'rgba(52, 52, 52, 0.5)',
-                color: 'white',
-                lineHeight: '1',
-                padding: '0.5em',
-                marginBottom: '10.00em',
-                fontFamily: 'Gentium Basic',
-              }}
-            >
-              {bookDescription1}
-            </h1>
-            <h1
-              className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-              style={{
-                backgroundColor: 'rgba(52, 52, 52, 0.5)',
-                color: 'white',
-                lineHeight: '1',
-                padding: '0.5em',
-                marginBottom: '10.00em',
-                fontFamily: 'Gentium Basic',
-              }}
-            >
-              {bookDescription2}
-            </h1>
-            <h1
-              className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-              style={{
-                backgroundColor: 'rgba(52, 52, 52, 0.5)',
-                color: 'white',
-                lineHeight: '1',
-                padding: '0.5em',
-                marginBottom: '10.00em',
-                fontFamily: 'Gentium Basic',
-              }}
-            >
-              {bookDescription3}
-            </h1>
-            <h1
-              className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-              style={{
-                backgroundColor: 'rgba(52, 52, 52, 0.5)',
-                color: 'white',
-                lineHeight: '1',
-                padding: '0.5em',
-                fontFamily: 'Gentium Basic',
-              }}
-            >
-              {bookDescription4}
-            </h1>
-          </div>
-        </div>
+      <div>
+        <img src={lfl_banner} width='100%' height='100%' style={{ marginTop: '60px' }} />
       </div>
       <section className="section section--gradient">
         <div className="container">
@@ -142,35 +34,25 @@ export const IndexPageTemplate = ({
                         flexDirection: 'column',
                       }}
                     >
-                      <div style={{
-                        display: 'flex',
-                        justifyContent: 'space-around',
-                        width: '50%',
-                        height: 'auto',
-                        margin: '10px'
-                      }}>
-                        <img src={lfl_front_cover} alt="Front Cover" style={{ marginRight: '10px' }} />
-                        <img src={lfl_back_cover} alt="Back Cover" />
+                      <div className="tile" style={{ marginBottom: '40px' }}>
+                        <img src={lfl_front_cover} alt="Front Cover" />
                       </div>
-                      <div className="tile" style={{ marginBottom: '12px' }}>
+                      <div className="tile" style={{ marginBottom: '40px' }}>
+                        <p>
+                          Leela never wanted to be adopted by the wealthy Rumsford family whose spoiled children make her life miserable. She feels utterly alone until a messenger from her future appears.
+                          <br /> <br />
+                          Raven, the bringer of magic, leads her into a mysterious forest to meet Fox, guardian of the world between worlds. He warns her that the animals, forests and oceans are in great danger because humans have forgotten their place in the circle of life.
+                          <br /> <br />
+                          But to fulfill the prophecy of the new earth, Leela must gather seven animal allies, shapeshift time and travel through a portal to receive the gift of far-seeing.
+                          <br /> <br />
+                          Can Leela face the dark forces that want to stop the new earth from rising? It's up to her to trust her heart and lead the way.
+                        </p>
+                      </div>
+                      <div className="tile">
                         <a className="btn" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Leela-Forest-Light-Lin-Northrup-ebook/dp/B08L6VYX53/ref=sr_1_1?crid=V9HSIW8V979P&dchild=1&keywords=leela+and+the+forest+of+light&qid=1604274061&sprefix=leela+and+the+%2Caps%2C153&sr=8-1">
                           Buy on Amazon
                         </a>
                       </div>
-                      <div className="tile">
-                        <p className="subtitle" style={{ fontFamily: 'Gentium Basic' }}><b>Lin Northrup, M.Ed., R.H. </b>{mainpitch.description}</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2" style={{ fontFamily: 'Amatic SC' }}>
-                      Latest stories
-                  </h3>
-                    <BlogRoll />
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/blog">
-                        Read more
-                    </Link>
                     </div>
                   </div>
                 </div>
@@ -184,13 +66,6 @@ export const IndexPageTemplate = ({
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  lionQuote: PropTypes.string,
-  heading: PropTypes.string,
-  lionCite: PropTypes.string,
-  bookDescription1: PropTypes.string,
-  bookDescription2: PropTypes.string,
-  bookDescription3: PropTypes.string,
-  bookDescription4: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
@@ -205,13 +80,6 @@ const IndexPage = ({ data }) => {
     <Layout>
       <IndexPageTemplate
         image={frontmatter.image}
-        lionQuote={frontmatter.lionQuote}
-        heading={frontmatter.heading}
-        lionCite={frontmatter.lionCite}
-        bookDescription1={frontmatter.bookDescription1}
-        bookDescription2={frontmatter.bookDescription2}
-        bookDescription3={frontmatter.bookDescription3}
-        bookDescription4={frontmatter.bookDescription4}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
@@ -234,20 +102,6 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
-        lionQuote
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        heading
-        lionCite
-        bookDescription1
-        bookDescription2
-        bookDescription3
-        bookDescription4
         mainpitch {
           title
           description
