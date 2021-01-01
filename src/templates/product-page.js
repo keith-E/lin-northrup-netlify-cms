@@ -6,6 +6,7 @@ import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import lfl_front_cover from '../img/lfl_front_cover.jpg'
+import lfl_wolf from '../img/lfl_wolf.jpg'
 
 export const ProductPageTemplate = ({
   intro,
@@ -28,9 +29,16 @@ export const ProductPageTemplate = ({
                     flexDirection: 'column',
                   }}
                 >
-                  <div className="tile" style={{ marginBottom: '40px' }}>
-                    <img src={lfl_front_cover} alt="Front Cover" />
-                  </div>
+                      <div style={{
+                        display: 'flex',
+                        justifyContent: 'space-around',
+                        width: '50%',
+                        height: 'auto',
+                        marginBottom: '40px'
+                      }}>
+                        <img src={lfl_front_cover} alt="Front Cover" style={{ maxWidth: '100%', maxHeight: '100%', marginRight: '10px' }} />
+                        <img src={lfl_wolf} alt="Wolf" style={{ maxWidth: '100%', maxHeight: '100%' }} />
+                      </div>
                   <div className="tile" style={{ marginBottom: '40px' }}>
                     <p>
                       Leela never wanted to be adopted by the wealthy Rumsford family whose spoiled children make her life miserable. She feels utterly alone until a messenger from her future appears.

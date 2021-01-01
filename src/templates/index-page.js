@@ -34,7 +34,7 @@ export const IndexPageTemplate = ({
                         flexDirection: 'column',
                       }}
                     >
-                      <div className="tile" style={{ marginBottom: '40px' }}>
+                      <div className="tile" style={{ marginBottom: '60px' }}>
                         <img src={lfl_front_cover} alt="Front Cover" />
                       </div>
                       <div className="tile" style={{ marginBottom: '40px' }}>
