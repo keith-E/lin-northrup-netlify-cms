@@ -10,19 +10,20 @@ export default class BlogIndexPage extends React.Component {
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('/img/lfl_forest_landscape.jpg')`,
+            backgroundImage: `url('/img/leela-banner-blank.jpg')`,
           }}
         >
           <h1
             className="has-text-weight-bold is-size-1"
             style={{
-              backgroundColor: 'rgba(52, 52, 52, 0.5)',
+              backgroundColor: 'rgba(52, 52, 52, 0.65)',
               color: 'white',
               padding: '1rem',
               fontFamily: 'Amatic SC',
+              fontSize: '6em'
             }}
           >
-            Latest Stories
+            Reflections and Articles
           </h1>
         </div>
         <section className="section">
